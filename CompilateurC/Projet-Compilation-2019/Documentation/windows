@@ -1,0 +1,5 @@
+flex lex1.l 
+bison -g yacc1.y
+gcc -o text.exe yacc1.tab.c lex.yy.c
+.\text.exe .\exempleminiC.c
+dot -Tpdf file.dot -o demo1.pdf

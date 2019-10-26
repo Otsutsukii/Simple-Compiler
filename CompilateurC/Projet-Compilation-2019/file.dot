@@ -1,0 +1,17 @@
+digraph G { 
+8 [label="main, INT" shape=invtrapezium color=blue]
+7 [label="BLOC"]
+3 [label=":="]
+1 [label="a"]
+3 -> 1 
+2 [label="0"]
+3 -> 2 
+7 -> 3 
+6 [label=":="]
+4 [label="b"]
+6 -> 4 
+5 [label="1"]
+6 -> 5 
+7 -> 6 
+8 -> 7 
+}
